@@ -485,6 +485,31 @@ ul.myUL {
         background: lightgrey;
         position: relative;
     }
+    
+}
+
+@media (max-width: 930px){
+    .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    /* background: crimson; */
+    z-index: 999;
+    font-family: sans-serif;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: crimson;
+}
+      
 }
 
 .contact-content .copyright{
